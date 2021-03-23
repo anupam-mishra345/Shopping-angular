@@ -1,0 +1,36 @@
+
+      #navId{
+        background-color: #B4703F;
+      }
+      #navId li a{
+        color: white;
+        font-weight: bolder;
+      }
+      #navId li a:hover{
+        color: #7e3517;
+      }
+      #navId form button{
+        color: white;
+      }
+      #mainId{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .filter{
+        background-color: #B4703F;
+        color: white;
+      }
+      .footer {
+        background-color: #B4703F;
+        color: white;
+      }
+      .footer a:link{
+        color: black;
+        font-size: small;
+      }
+      .footer a:visited{
+        color: black;
+      }
+      body{
+        font-family: Book Antiqua;
+      }
