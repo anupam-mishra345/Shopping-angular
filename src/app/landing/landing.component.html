@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+              <br><br>
+              <div class="container-fluid">
+                <div class="row" >
+                  <img src="{{data.images[0]}}" alt="" id="img1">
+                  </div>
+              </div>
+              <br>
+              <div class="container-fluid">
+                  <div class="row" id="img2">
+                      <div>
+                        <img class="p-2" *ngFor="let image of img" src="{{image}}" alt="" height="100px" width="auto" (click)="imageChange(image)">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-sm-6">
+              <h2 class="name text" style="color: #7e3517;font-size: 24px;"> {{data.name}} </h2>
+              <h1 id="price" class="text" style="color: green;font-size: 30px;"> &#8377;{{data.price}} <span style="font-size: 18px;">(inclusive of all taxes)</span></h1>
+              <h3 class="rating text" style="font-size: 24px;"> Ratings: {{data.rating}} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:7px" height="24px"></h3>
+              <!-- <label for="">Select Size</label> -->
+              <select id="sz" class="btn p-2" style="background-color: #D8D7D4;font-weight: 500;">
+                <option value="">Select size</option>
+                <option value=6>6</option>
+                <option value=7>7</option>
+                <option value=8>8</option>
+                <option value=9>9</option>
+                <option value=10>10</option>
+              </select>
+                <br><br>
+              <button type="button" class="btn btn-warning p-2 mx-2 text" (click)="myCart(data)" style="width: 40%;font-size: 20px;">Add to Cart</button>
+              <button type="button" class="btn btn-warning p-2 mx-2 text" style="width: 40%;font-size: 20px;">Buy Now</button>
+                  <br><br><br>
+              <h3 style="text-align: center;">PRODUCT DETAILS</h3>
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Features</th>
+                    <th scope="col">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr> 
+                    <td>Name</td>
+                    <td class="name"> {{ data.name }} </td>
+                  </tr>
+                  <tr>
+                    <td>Brand</td>
+                    <td id="brand"> {{ data.brand }} </td>
+                  </tr>
+                  <tr>
+                    <td>Category</td>
+                    <td id="category"> {{ data.type }} </td>
+                  </tr>
+                  <tr>
+                    <td>Gender preference</td>
+                    <td id="gender"> {{ data.department }} </td>
+                  </tr>
+                  <tr>
+                    <td>Color</td>
+                    <td id="color"> {{ data.color }} </td>
+                  </tr>
+                  <tr>
+                    <td>Lifestyle Screen</td>
+                    <td id="lifestyle"> {{ data.lifeStyle }} </td>
+                  </tr>
+                  <tr>
+                    <td>Rating</td>
+                    <td id="rating"> {{ data.rating }} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:5px" height="20px"></td>
+                  </tr>
+                  <tr>
+                    <td>Material</td>
+                    <td id="material"> {{ data.material }} </td>
+                  </tr>
+                  <tr>
+                    <td>Size available</td>
+                    <td id="size"> {{ data.size }} </td>
+                  </tr>
+                  <tr>
+                    <td>Reviews</td>
+                    <td id="review">
+                        
+                        <div *ngFor="let rev of cmnt">
+                            <!-- <div *ngFor="let rev of cmmnt"> -->
+                                <span>{{rev.review}}</span><br>
+                                <b><span>By: {{rev.reviewBy}} </span></b><hr>
+                            <!-- </div> -->
+                        </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

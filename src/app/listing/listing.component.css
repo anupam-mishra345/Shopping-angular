@@ -1,0 +1,9 @@
+#mainId{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filter{
+    background-color: #B4703F;
+    color: white;
+  }

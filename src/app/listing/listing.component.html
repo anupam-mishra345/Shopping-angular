@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+<!--Carousel Images Start-->
+<div class="container-fluid mt-2">
+  <div class="row">
+
+  
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 1.png"  class="d-block" width="100%" height="auto" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 2.png"  class="d-block" width="100%" height="auto" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 3.png"  class="d-block" width="100%" height="auto" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+</div>
+<!--Carousel End-->
+
+
+<!--Content of listing and filter start-->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-md-2" >
+      <div class=" sticky-top">
+      <div class="d-flex flex-column bd-highlight filter">
+
+<!--Filters Experiment start-->
+<div id="accordion">
+
+<div class="card filter">
+  <div class="card-header">
+    <a class="card-link text-dark" style="font-weight: bolder;" data-bs-toggle="collapse" href="#collapseOne">
+      Brand
+    </a>
+  </div>
+  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+    <div class="card-body">
+    <div>
+      <input type="checkbox" class="brnd" value="Sparx">
+      <label>Sparx</label>
+    </div>
+    <div>
+        <input type="checkbox" class="brnd" value="Nike">
+        <label>Nike</label>
+      </div>
+    <div>
+        <input type="checkbox" class="brnd" value="Paragon">
+        <label>Paragon</label>
+      </div>
+      <div>
+        <input type="checkbox" class="brnd" value="Puma">
+        <label>Puma</label>
+      </div>
+      <div>
+        <input type="checkbox" class="brnd" value="Centrino">
+        <label>Centrino</label>
+      </div>
+      <div>
+        <input type="checkbox" class="brnd" value="US Polo Assn"> 
+        <label>Us Polo Assn</label>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="card filter" >
+  <div class="card-header">
+    <a class="collapsed card-link text-dark" style="font-weight: bolder;" data-bs-toggle="collapse" href="#collapseTwo">
+      Color
+    </a>
+  </div>
+  <div id="collapseTwo" class="collapse" >
+    <div class="card-body">
+        <div>
+            <input type="checkbox" class="color" value="Black">
+            <label>Black</label>
+          </div>
+          <div>
+              <input type="checkbox" class="color" value="Brown">
+              <label>Brown</label>
+            </div>
+          <div>
+              <input type="checkbox" class="color" value="Blue">
+              <label>Blue</label>
+            </div>
+    </div>
+  </div>
+</div>
+
+<div class="card filter">
+  <div class="card-header">
+    <a class="collapsed card-link text-dark" style="font-weight: bolder;" data-bs-toggle="collapse" href="#collapseThree">
+      Price
+    </a>
+  </div>
+  <div id="collapseThree" class="collapse" data-parent="#accordion">
+    <div class="card-body">
+        <div>
+            <input type="checkbox" class="price" value="p1">
+            <label>&#8377;100 to &#8377;499</label>
+          </div>
+          <div>
+              <input type="checkbox" class="price" value="p2">
+              <label>&#8377;500 to &#8377;1499</label>
+            </div>
+          <div>
+              <input type="checkbox" class="price" value="p3">
+              <label>&#8377;1500 to &#8377;2500</label>
+            </div>
+    </div>
+  </div>
+</div>
+
+<div class="card filter">
+  <div class="card-header" style="text-align: center;"><button type="button" class="btn" style="background-color:#532503;color: white;" onclick="applyFilters()">Apply Filters</button></div>
+</div>
+</div>
+<!--Filter experiment end-->
+
+</div>
+</div>
+</div>
+
+<!--Listing start-->
+    <div class="col-md-10 justify-content-evenly p-2" id="mainId">
+      
+      <a style="text-decoration:none" *ngFor="let card of itemList" (click)="landing(card)">
+       
+        <div class="card" style="width: 15rem;border:1px solid #17B7C4" >
+         <br>
+         <div><img src="{{card.images[0]}}" class="card-img-top" alt="..."></div>
+         <div class="card-body">
+           <h5 class="card-title" style="color:#7e3517;font-size:20px">{{ card.name }}</h5>
+           <h1 class="card-text text-success" style="font-size:22px">&#8377;{{card.price}}</h1>
+           <h4 class="card-text" style="font-size:16px">Ratings:{{card.rating}} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:5px" 
+               height="16px" width="16px"></h4>
+           
+         </div>
+         </div></a>
+
+
+    </div>
+<!--Listing end-->
+  
+</div>
+</div>
+<!--Content of listing and filter Ends-->
+
+
+
+
+</body>
+</html>
