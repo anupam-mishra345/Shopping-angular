@@ -145,7 +145,7 @@
 </div>
 
 <!--Listing start-->
-    <div class="col-md-10 justify-content-evenly p-2" id="mainId" >
+    <div class="col-md-10 justify-content-evenly p-2" id="mainId" *ngIf="filter; else noDiv">
       
       <a class="m-2" style="text-decoration:none" *ngFor="let card of itemList" (click)="landing(card)">
        
@@ -162,6 +162,28 @@
          </div></a>
 
     </div>
+    <ng-template #noDiv>
+      <div class="col-md-10 justify-content-evenly p-2" id="mainId">
+        
+        <a class="m-2" style="text-decoration:none" *ngFor="let card of listingArray" (click)="landing(card)">
+         
+          <div class="card" style="width: 15rem;border:1px solid gray" >
+           <br>
+           <div style="height: 170px;width: auto;align-items: center;display: flex;"><img src="{{card.images[0]}}" class="card-img-top" alt="..."></div>
+           <div class="card-body">
+             <h5 class="card-title custom" style="color:#7e3517;font-size:20px;">{{ card.name }}</h5>
+             <h1 class="card-text text-success" style="font-size:22px">&#8377;{{card.price}}</h1>
+             <h4 class="card-text" style="font-size:16px">Ratings: {{card.rating}} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:5px" 
+                 height="16px" width="16px"></h4>
+             
+           </div>
+           </div></a>
+  
+           <!-- <p>Data yet to come</p> -->
+      </div>
+    </ng-template>
+
+    
 <!--Listing end-->
   
 </div>

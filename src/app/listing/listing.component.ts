@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonService } from '../common.service';
-// import { AfterVElementRef } from '@angular/core';
 
 
 @Component({
@@ -15,20 +14,23 @@ export class ListingComponent implements OnInit {
 
   itemList:any;
 
-  listingArray:any;
+  listingArray:any=[];
 
+  filter:boolean=true;
   ngOnInit(): void {
   this.getData();
   }
-  
+
   landing(card:any){
     this.router.navigate(['/landing',card.id]);
   }
   
   getData(){
-    this.commonService.getAllItems().subscribe((resp)=>{this.itemList=resp});
+    this.commonService.getAllItems().subscribe((resp)=>{this.itemList=resp
+    console.log(resp);
     // console.log(this.itemList);
-  }
+    });
+    }
 
   applyFilters(){
   
@@ -39,7 +41,7 @@ export class ListingComponent implements OnInit {
   let brandListingArray:any=[];
   let colorListingArray=[];
   let priceListingArray=[];
-  
+  this.listingArray=[];
   let mainArray=[];
   
   let b:any=document.getElementsByClassName("brnd");
@@ -200,15 +202,16 @@ let temp=0;
     console.log(mainArray);
 
     for(let i=0;i<mainArray.length;i++){
-
+        this.filter=false;
       this.commonService.display(mainArray[i]).subscribe((resp)=>{
-        this.itemList=resp;
+        this.listingArray.push(resp);
         console.log(resp);
       })
-  }
+      console.log(this.listingArray);
 
-// let main:any=document.getElementById("mainId");
-// main.innerMain="";
+  }
+  
+
 
 
 
