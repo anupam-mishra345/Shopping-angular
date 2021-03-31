@@ -1,270 +1,466 @@
 {
-    "item":
-    [
+  "item": [
     {
-        "id":1,
-        "name":"Sparx Men SM-162 Casual Shoes",
-        "brand":"Sparx",
-        "price":676,
-        "color":"Black",
-        "material":"Canvas Fabric",
-        "type":"Sneakers",
-        "department":"Men",
-        "lifeStyle":"Casual",
-        "rating":4.5,
-        "size":[6,7,8,9,10],
-        "images":["assets/01/01-61L4ZMMwgCL._UL1110_.jpg","assets/01/02-61Q6syubtbL._UL1110_.jpg","assets/01/03-61djn1CRqCL._UL1110_.jpg",
-            "assets/01/04-61OC6Doy0AL._UL1110_.jpg","assets/01/05-61FG-iUUCKL._UL1110_.jpg","assets/01/06-61BzmSQc+1L._UL1110_.jpg",
-            "assets/01/07-612JsbgBLbL._UL1110_.jpg","assets/01/08-619QSGG-BuL._UL1110_.jpg","assets/01/09-61v+f0pEluL._UL1110_.jpg"],
-        "comments":[{
-            "reviewBy":"Anupam M",
-            "review":"Very good shoes"
-        },{
-            "reviewBy":"Chetan",
-            "review":"Nice footwears"
-        }]
+      "id": 1,
+      "name": "Sparx Men SM-162 Casual Shoes",
+      "brand": "Sparx",
+      "price": 676,
+      "color": "Black",
+      "material": "Canvas Fabric",
+      "type": "Sneakers",
+      "department": "Men",
+      "lifeStyle": "Casual",
+      "rating": 4.5,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/01/01-61L4ZMMwgCL._UL1110_.jpg",
+        "assets/01/02-61Q6syubtbL._UL1110_.jpg",
+        "assets/01/03-61djn1CRqCL._UL1110_.jpg",
+        "assets/01/04-61OC6Doy0AL._UL1110_.jpg",
+        "assets/01/05-61FG-iUUCKL._UL1110_.jpg",
+        "assets/01/06-61BzmSQc+1L._UL1110_.jpg",
+        "assets/01/07-612JsbgBLbL._UL1110_.jpg",
+        "assets/01/08-619QSGG-BuL._UL1110_.jpg",
+        "assets/01/09-61v+f0pEluL._UL1110_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Anupam M",
+          "review": "Very good shoes"
+        },
+        {
+          "reviewBy": "Chetan",
+          "review": "Nice footwears"
+        }
+      ]
     },
     {
-        "id":2,
-        "name":"Peelu Men's Breathable Sports Running Shoes",
-        "brand":"Peelu",
-        "price":599,
-        "color":"Blue",
-        "material":"Canvas Fabric",
-        "type":"Sports",
-        "department":"Men",
-        "lifeStyle":"Running, Outdoor Sports, Cycling, Gym and Training",
-        "rating":4,
-        "size":[6,7,8,9,10],
-        "images":["assets/02/01-6153xHdmEqL._UL1200_.jpg","assets/02/02-61dyBpPZ4jL._UL1200_.jpg","assets/02/03-41mEDEZ-OGL.jpg","assets/02/04-51yyLo7cNDL._UL1200_.jpg",
-            "assets/02/05-71AEQs2XX9L._UL1200_.jpg","assets/02/06-51vJ2ffNo+L.jpg","assets/02/07-41EhUd5s9cL.jpg"],
-        "comments":[{
-                "reviewBy":"Sindhu VC",
-                "review":"Fabulous shoes"
-            },{
-                "reviewBy":"Gagana",
-                "review":"Good for walking. Nice"
-            }]        
+      "id": 2,
+      "name": "Peelu Men's Breathable Sports Running Shoes",
+      "brand": "Peelu",
+      "price": 599,
+      "color": "Blue",
+      "material": "Canvas Fabric",
+      "type": "Sports",
+      "department": "Men",
+      "lifeStyle": "Running, Outdoor Sports, Cycling, Gym and Training",
+      "rating": 4,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/02/01-6153xHdmEqL._UL1200_.jpg",
+        "assets/02/02-61dyBpPZ4jL._UL1200_.jpg",
+        "assets/02/03-41mEDEZ-OGL.jpg",
+        "assets/02/04-51yyLo7cNDL._UL1200_.jpg",
+        "assets/02/05-71AEQs2XX9L._UL1200_.jpg",
+        "assets/02/06-51vJ2ffNo+L.jpg",
+        "assets/02/07-41EhUd5s9cL.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Sindhu VC",
+          "review": "Fabulous shoes"
+        },
+        {
+          "reviewBy": "Gagana",
+          "review": "Good for walking. Nice"
+        }
+      ]
     },
     {
-        "id":3,
-        "name":"PARAGON Vertex Men's Yellow Flip-Flops",
-        "brand":"Paragon",
-        "price":296,
-        "color":"Brown",
-        "material":"Synthetic Rubber",
-        "type":"Sandals",
-        "department":"Men",
-        "lifeStyle":"Casual",
-        "rating":4.5,
-        "size":[6,7,8,9,10],
-        "images":["assets/03/01-71PAi7YraiL._UL1500_.jpg","assets/03/02-71Wq6zfJ3UL._UL1500_.jpg","assets/03/03-71DwQtAIebL._UL1500_.jpg","assets/03/04-71re0PNIi+L._UL1500_.jpg",
-            "assets/03/05-71Gsymgan8L._UL1500_.jpg","assets/03/06-61lJBofY2ML._UL1500_.jpg","assets/03/07-71lWd1XxrRL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Sonu S.",
-                "review":"Comfortable"
-            },{
-                "reviewBy":"Devesh K.",
-                "review":"You can purchase this product."
-            }]        
+      "id": 3,
+      "name": "PARAGON Vertex Men's Yellow Flip-Flops",
+      "brand": "Paragon",
+      "price": 296,
+      "color": "Brown",
+      "material": "Synthetic Rubber",
+      "type": "Sandals",
+      "department": "Men",
+      "lifeStyle": "Casual",
+      "rating": 4.5,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/03/01-71PAi7YraiL._UL1500_.jpg",
+        "assets/03/02-71Wq6zfJ3UL._UL1500_.jpg",
+        "assets/03/03-71DwQtAIebL._UL1500_.jpg",
+        "assets/03/04-71re0PNIi+L._UL1500_.jpg",
+        "assets/03/05-71Gsymgan8L._UL1500_.jpg",
+        "assets/03/06-61lJBofY2ML._UL1500_.jpg",
+        "assets/03/07-71lWd1XxrRL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Sonu S.",
+          "review": "Comfortable"
+        },
+        {
+          "reviewBy": "Devesh K.",
+          "review": "You can purchase this product."
+        }
+      ]
     },
     {
-        "id":4,
-        "name":"Nubeno Mens Formal Shoes",
-        "brand":"Nubeno",
-        "price":1499,
-        "color":"Black",
-        "material":"Synthetic Leather",
-        "type":"Formal Shoes",
-        "department":"Men",
-        "lifeStyle":"Formal",
-        "rating":4.8,
-        "size":[6,7,8,9,10],
-        "images":["assets/04/01-71kuEKP7WxL._UL1500_.jpg","assets/04/02-71BmXWa8rUL._UL1500_.jpg","assets/04/03-81F9kQOO-OL._UL1500_.jpg",
-            "assets/04/04-71OZBFiexvL._UL1500_.jpg","assets/04/05-81UK6o1VdEL._UL1500_.jpg","assets/04/06-81ma1Pw9+hL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Shanmukha K.",
-                "review":"Very good shoes"
-            },{
-                "reviewBy":"Darshan K G",
-                "review":"Nice footwears"
-            }]        
+      "id": 4,
+      "name": "Nubeno Mens Formal Shoes",
+      "brand": "Nubeno",
+      "price": 1499,
+      "color": "Black",
+      "material": "Synthetic Leather",
+      "type": "Formal Shoes",
+      "department": "Men",
+      "lifeStyle": "Formal",
+      "rating": 4.8,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/04/01-71kuEKP7WxL._UL1500_.jpg",
+        "assets/04/02-71BmXWa8rUL._UL1500_.jpg",
+        "assets/04/03-81F9kQOO-OL._UL1500_.jpg",
+        "assets/04/04-71OZBFiexvL._UL1500_.jpg",
+        "assets/04/05-81UK6o1VdEL._UL1500_.jpg",
+        "assets/04/06-81ma1Pw9+hL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Shanmukha K.",
+          "review": "Very good shoes"
+        },
+        {
+          "reviewBy": "Darshan K G",
+          "review": "Nice footwears"
+        }
+      ]
     },
     {
-        "id":5,
-        "name":"Centrino 4448 Casual-Men's Shoes",
-        "brand":"Centrino",
-        "price":775,
-        "color":"Brown",
-        "material":"Synthetic",
-        "type":"Sneakers",
-        "department":"Men",
-        "lifeStyle":"Casual",
-        "rating":4,
-        "size":[6,7,8,9,10],
-        "images":["assets/05/01-7189jbJRKmL._UL1500_.jpg","assets/05/02-71mGoDnJhZL._UL1500_.jpg","assets/05/03-81VeCJ1LeYL._UL1500_.jpg",
-            "assets/05/04-71sSImgHEGL._UL1500_.jpg","assets/05/05-71o9q3cZJHL._UL1500_.jpg","assets/05/06-61iaeASN3BL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Shakrukh Khan",
-                "review":"Product is good"
-            },{
-                "reviewBy":"Ratan Tata",
-                "review":"Belive this product"
-            }]                
+      "id": 5,
+      "name": "Centrino 4448 Casual-Men's Shoes",
+      "brand": "Centrino",
+      "price": 775,
+      "color": "Brown",
+      "material": "Synthetic",
+      "type": "Sneakers",
+      "department": "Men",
+      "lifeStyle": "Casual",
+      "rating": 4,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/05/01-7189jbJRKmL._UL1500_.jpg",
+        "assets/05/02-71mGoDnJhZL._UL1500_.jpg",
+        "assets/05/03-81VeCJ1LeYL._UL1500_.jpg",
+        "assets/05/04-71sSImgHEGL._UL1500_.jpg",
+        "assets/05/05-71o9q3cZJHL._UL1500_.jpg",
+        "assets/05/06-61iaeASN3BL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Shakrukh Khan",
+          "review": "Product is good"
+        },
+        {
+          "reviewBy": "Ratan Tata",
+          "review": "Belive this product"
+        }
+      ]
     },
     {
-        "id":6,
-        "name":"US Polo Association Mens Gama Walking Shoes",
-        "brand":"US Polo Assn",
-        "price":2249,
-        "color":"Black",
-        "material":"Textile",
-        "type":"Sports",
-        "department":"Men",
-        "lifeStyle":"Running, Walking",
-        "rating":3.7,
-        "size":[6,7,8,9,10],
-        "images":["assets/06/01-81htR4hlInL._UL1500_.jpg","assets/06/02-81itS1516WL._UL1500_.jpg","assets/06/03-81aYYqoVWtL._UL1500_.jpg",
-            "assets/06/04-71yeP4q61FL._UL1500_.jpg","assets/06/05-81pYR+jbiHL._UL1500_.jpg","assets/06/06-810sel8eB7L._UL1500_.jpg",
-            "assets/06/07-810A8jqR+EL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Munesh T.",
-                "review":"Very good shoes"
-            },{
-                "reviewBy":"Sachin K.",
-                "review":"Nice footwears"
-            }]        
+      "id": 6,
+      "name": "US Polo Association Mens Gama Walking Shoes",
+      "brand": "US Polo Assn",
+      "price": 2249,
+      "color": "Black",
+      "material": "Textile",
+      "type": "Sports",
+      "department": "Men",
+      "lifeStyle": "Running, Walking",
+      "rating": 3.7,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/06/01-81htR4hlInL._UL1500_.jpg",
+        "assets/06/02-81itS1516WL._UL1500_.jpg",
+        "assets/06/03-81aYYqoVWtL._UL1500_.jpg",
+        "assets/06/04-71yeP4q61FL._UL1500_.jpg",
+        "assets/06/05-81pYR+jbiHL._UL1500_.jpg",
+        "assets/06/06-810sel8eB7L._UL1500_.jpg",
+        "assets/06/07-810A8jqR+EL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Munesh T.",
+          "review": "Very good shoes"
+        },
+        {
+          "reviewBy": "Sachin K.",
+          "review": "Nice footwears"
+        }
+      ]
     },
     {
-        "id":7,
-        "name":"Puma Men's Rapid Runner IDP Sports",
-        "brand":"Puma",
-        "price":2399,
-        "color":"Black",
-        "material":"Synthetic",
-        "type":"Sports",
-        "department":"Men",
-        "lifeStyle":"Running, Walking",
-        "rating":4.5,
-        "size":[6,7,8,9,10],
-        "images":["assets/07/01-61NtUo0zFeL._UL1200_.jpg","assets/07/02-61ijgM1Vy3L._UL1200_.jpg","assets/07/03-61fw3lJkhKL._UL1200_.jpg",
-            "assets/07/04-61SBp5s+aDL._UL1200_.jpg","assets/07/05-51pkRUuAG-L._UL1200_.jpg","assets/07/06-51+9Qn6J18L._UL1200_.jpg"],
-        "comments":[{
-                "reviewBy":"Nagaraj",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 7,
+      "name": "Puma Men's Rapid Runner IDP Sports",
+      "brand": "Puma",
+      "price": 2399,
+      "color": "Black",
+      "material": "Synthetic",
+      "type": "Sports",
+      "department": "Men",
+      "lifeStyle": "Running, Walking",
+      "rating": 4.5,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/07/01-61NtUo0zFeL._UL1200_.jpg",
+        "assets/07/02-61ijgM1Vy3L._UL1200_.jpg",
+        "assets/07/03-61fw3lJkhKL._UL1200_.jpg",
+        "assets/07/04-61SBp5s+aDL._UL1200_.jpg",
+        "assets/07/05-51pkRUuAG-L._UL1200_.jpg",
+        "assets/07/06-51+9Qn6J18L._UL1200_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Nagaraj",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     },
     {
-        "id":8,
-        "name":"Nike Unisex's Flex Runner (Gs) Running Shoes",
-        "brand":"Nike",
-        "price":1865,
-        "color":"Blue",
-        "material":"Stretch mesh fabric",
-        "type":"Sports",
-        "department":"Unisex",
-        "lifeStyle":"Running, Walking",
-        "rating":4.8,
-        "size":[6,7,8,9,10],
-        "images":["assets/08/01-612PY-5YV8L._UL1434_.jpg","assets/08/02-61r-fc+dj+L._UL1452_.jpg","assets/08/03-61A1osy58KL._UL1271_.jpg",
-            "assets/08/04-51ZLu4y1CrL._UL1474_.jpg"],
-        "comments":[{
-                "reviewBy":"Md. Inush",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 8,
+      "name": "Nike Unisex's Flex Runner (Gs) Running Shoes",
+      "brand": "Nike",
+      "price": 1865,
+      "color": "Blue",
+      "material": "Stretch mesh fabric",
+      "type": "Sports",
+      "department": "Unisex",
+      "lifeStyle": "Running, Walking",
+      "rating": 4.8,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/08/01-612PY-5YV8L._UL1434_.jpg",
+        "assets/08/02-61r-fc+dj+L._UL1452_.jpg",
+        "assets/08/03-61A1osy58KL._UL1271_.jpg",
+        "assets/08/04-51ZLu4y1CrL._UL1474_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Md. Inush",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     },
     {
-        "id":9,
-        "name":"Nike Boys JR Phantom VSN Club DF IC Football Shoes",
-        "brand":"Nike",
-        "price":1452,
-        "color":"Red",
-        "material":"Synthetic fabric",
-        "type":"Sports",
-        "department":"Men",
-        "lifeStyle":"Running, Walking",
-        "rating":4,
-        "size":[6,7,8,9,10],
-        "images":["assets/09/01-81p-HrpBYcL._UL1500_.jpg","assets/09/02-71aO7grpD1L._UL1500_.jpg","assets/09/03-71VbjhWV8yL._UL1500_.jpg",
-            "assets/09/04-71wEWoWXj9L._UL1500_.jpg","assets/09/05-81FVc621mIL._UL1500_.jpg","assets/09/06-81nvk8l-s+L._UL1500_.jpg","assets/09/07-81I1XHrZUGL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Md. Inush",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 9,
+      "name": "Nike Boys JR Phantom VSN Club DF IC Football Shoes",
+      "brand": "Nike",
+      "price": 1452,
+      "color": "Red",
+      "material": "Synthetic fabric",
+      "type": "Sports",
+      "department": "Men",
+      "lifeStyle": "Running, Walking",
+      "rating": 4,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/09/01-81p-HrpBYcL._UL1500_.jpg",
+        "assets/09/02-71aO7grpD1L._UL1500_.jpg",
+        "assets/09/03-71VbjhWV8yL._UL1500_.jpg",
+        "assets/09/04-71wEWoWXj9L._UL1500_.jpg",
+        "assets/09/05-81FVc621mIL._UL1500_.jpg",
+        "assets/09/06-81nvk8l-s+L._UL1500_.jpg",
+        "assets/09/07-81I1XHrZUGL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Md. Inush",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     },
     {
-        "id":10,
-        "name":"Puma Mens Zod Runner V3 Idp Running Shoes Running Shoe",
-        "brand":"Puma",
-        "price":1579,
-        "color":"Blue",
-        "material":"Synthetic Rubber, textile",
-        "type":"Casual",
-        "department":"Men",
-        "lifeStyle":"Running, Walking",
-        "rating":4,
-        "size":[6,7,8,9,10],
-        "images":["assets/10/01-71CL9uy6UcL._UL1500_.jpg","assets/10/02-81xUCeFRvPL._UL1500_.jpg","assets/10/03-81oUtZQeNqL._UL1500_.jpg",
-            "assets/10/04-71ez-DIMx1L._UL1500_.jpg","assets/10/05-71P8Q843FbL._UL1500_.jpg","assets/10/06-71pLq3LZCeL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Md. Inush",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 10,
+      "name": "Puma Mens Zod Runner V3 Idp Running Shoes Running Shoe",
+      "brand": "Puma",
+      "price": 1579,
+      "color": "Blue",
+      "material": "Synthetic Rubber, textile",
+      "type": "Casual",
+      "department": "Men",
+      "lifeStyle": "Running, Walking",
+      "rating": 4,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/10/01-71CL9uy6UcL._UL1500_.jpg",
+        "assets/10/02-81xUCeFRvPL._UL1500_.jpg",
+        "assets/10/04-71ez-DIMx1L._UL1500_.jpg",
+        "assets/10/05-71P8Q843FbL._UL1500_.jpg",
+        "assets/10/06-71pLq3LZCeL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Md. Inush",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     },
     {
-        "id":11,
-        "name":"Sparx Men's Mesh Loafers",
-        "brand":"Sparx",
-        "price":999,
-        "color":"Blue",
-        "material":"Canvas fabric",
-        "type":"Casual",
-        "department":"Men",
-        "lifeStyle":"Party, Running, Walking",
-        "rating":4,
-        "size":[6,7,8,9,10],
-        "images":["assets/11/01-71xIDhD01OL._UL1500_.jpg","assets/11/02-71xaraUmmnL._UL1500_.jpg","assets/11/03-71ScKJBSCtL._UL1500_.jpg",
-            "assets/11/04-81L5chphoLL._UL1500_.jpg","assets/11/05-81o4p1zqdCL._UL1500_.jpg","assets/11/06-816pjV-u+GL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Md. Inush",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 11,
+      "name": "Sparx Men's Mesh Loafers",
+      "brand": "Sparx",
+      "price": 999,
+      "color": "Blue",
+      "material": "Canvas fabric",
+      "type": "Casual",
+      "department": "Men",
+      "lifeStyle": "Party, Running, Walking",
+      "rating": 4,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/11/01-71xIDhD01OL._UL1500_.jpg",
+        "assets/11/02-71xaraUmmnL._UL1500_.jpg",
+        "assets/11/03-71ScKJBSCtL._UL1500_.jpg",
+        "assets/11/04-81L5chphoLL._UL1500_.jpg",
+        "assets/11/05-81o4p1zqdCL._UL1500_.jpg",
+        "assets/11/06-816pjV-u+GL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Md. Inush",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     },
     {
-        "id":12,
-        "name":"PARAGON Stimulus Men's Grey Sandals",
-        "brand":"Paragon",
-        "price":476,
-        "color":"Blue",
-        "material":"Synthetic",
-        "type":"Sandals",
-        "department":"Men",
-        "lifeStyle":"Casual",
-        "rating":4.2,
-        "size":[6,7,8,9,10],
-        "images":["assets/12/01-71MdPG6RmDL._UL1500_.jpg","assets/12/02-71Zm7FmD4uL._UL1487_.jpg","assets/12/03-71v1L+FfuPL._UL1500_.jpg",
-            "assets/12/04-71zn+PDv8RL._UL1500_.jpg","assets/12/05-81cdDgB63LL._UL1500_.jpg","assets/12/06-71Wj-jePgzL._UL1500_.jpg","assets/12/07-81sySmF6-cL._UL1500_.jpg"],
-        "comments":[{
-                "reviewBy":"Md. Inush",
-                "review":"Quality based product"
-            },{
-                "reviewBy":"Shashi T.",
-                "review":"Excellent footwears"
-            }]        
+      "id": 12,
+      "name": "PARAGON Stimulus Men's Grey Sandals",
+      "brand": "Paragon",
+      "price": 476,
+      "color": "Blue",
+      "material": "Synthetic",
+      "type": "Sandals",
+      "department": "Men",
+      "lifeStyle": "Casual",
+      "rating": 4.2,
+      "size": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "assets/12/01-71MdPG6RmDL._UL1500_.jpg",
+        "assets/12/02-71Zm7FmD4uL._UL1487_.jpg",
+        "assets/12/03-71v1L+FfuPL._UL1500_.jpg",
+        "assets/12/04-71zn+PDv8RL._UL1500_.jpg",
+        "assets/12/05-81cdDgB63LL._UL1500_.jpg",
+        "assets/12/06-71Wj-jePgzL._UL1500_.jpg",
+        "assets/12/07-81sySmF6-cL._UL1500_.jpg"
+      ],
+      "comments": [
+        {
+          "reviewBy": "Md. Inush",
+          "review": "Quality based product"
+        },
+        {
+          "reviewBy": "Shashi T.",
+          "review": "Excellent footwears"
+        }
+      ]
     }
-]}
+  ],
+  "carts": [
+    {
+      "item_id": 9,
+      "item_name": "Nike Boys JR Phantom VSN Club DF IC Football Shoes",
+      "item_price": 1452,
+      "item_color": "Red",
+      "item_brand": "Nike",
+      "item_image": "assets/09/01-81p-HrpBYcL._UL1500_.jpg",
+      "item_qnty": 1,
+      "item_size": "6",
+      "id": 1
+    }
+  ]
+}

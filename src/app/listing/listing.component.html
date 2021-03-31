@@ -5,23 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
 </head>
 <body>
   
-
 <!--Carousel Images Start-->
 <div class="container-fluid mt-2">
   <div class="row">
-
   
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
       <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 1.png"  class="d-block" width="100%" height="auto" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="3000">
+    <!-- <div class="carousel-item" data-bs-interval="3000">
       <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 2.png"  class="d-block" width="100%" height="auto" alt="...">
-    </div>
+    </div> -->
     <div class="carousel-item" data-bs-interval="3000">
       <img src="assets\Shoes - Buy Shoes Online for Men, Women & Kids 3.png"  class="d-block" width="100%" height="auto" alt="...">
     </div>
@@ -39,7 +38,6 @@
 </div>
 </div>
 <!--Carousel End-->
-
 
 <!--Content of listing and filter start-->
 <div class="container-fluid mt-4">
@@ -87,7 +85,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="card filter" >
   <div class="card-header">
@@ -138,7 +135,7 @@
 </div>
 
 <div class="card filter">
-  <div class="card-header" style="text-align: center;"><button type="button" class="btn" style="background-color:#532503;color: white;" onclick="applyFilters()">Apply Filters</button></div>
+  <div class="card-header" style="text-align: center;"><button type="button" class="btn" style="background-color:#532503;color: white;" (click)="applyFilters()">Apply Filters</button></div>
 </div>
 </div>
 <!--Filter experiment end-->
@@ -148,22 +145,21 @@
 </div>
 
 <!--Listing start-->
-    <div class="col-md-10 justify-content-evenly p-2" id="mainId">
+    <div class="col-md-10 justify-content-evenly p-2" id="mainId" >
       
-      <a style="text-decoration:none" *ngFor="let card of itemList" (click)="landing(card)">
+      <a class="m-2" style="text-decoration:none" *ngFor="let card of itemList" (click)="landing(card)">
        
-        <div class="card" style="width: 15rem;border:1px solid #17B7C4" >
+        <div class="card" style="width: 15rem;border:1px solid gray" >
          <br>
-         <div><img src="{{card.images[0]}}" class="card-img-top" alt="..."></div>
+         <div style="height: 170px;width: auto;align-items: center;display: flex;"><img src="{{card.images[0]}}" class="card-img-top" alt="..."></div>
          <div class="card-body">
-           <h5 class="card-title" style="color:#7e3517;font-size:20px">{{ card.name }}</h5>
+           <h5 class="card-title custom" style="color:#7e3517;font-size:20px;">{{ card.name }}</h5>
            <h1 class="card-text text-success" style="font-size:22px">&#8377;{{card.price}}</h1>
-           <h4 class="card-text" style="font-size:16px">Ratings:{{card.rating}} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:5px" 
+           <h4 class="card-text" style="font-size:16px">Ratings: {{card.rating}} <img src="assets\rating-star-icon-11-256.png" style="margin-bottom:5px" 
                height="16px" width="16px"></h4>
            
          </div>
          </div></a>
-
 
     </div>
 <!--Listing end-->
@@ -171,9 +167,6 @@
 </div>
 </div>
 <!--Content of listing and filter Ends-->
-
-
-
 
 </body>
 </html>

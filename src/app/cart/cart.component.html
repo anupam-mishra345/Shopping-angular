@@ -1,10 +1,42 @@
 <div class="container">
-    <h1 id="h1">My Shopping Cart</h1>
+    <h1 id="h1">My Shopping Cart({{num}})</h1>
   </div>
   <div class="container">
       <div class="row">
           <div class="col-sm-7" id="carts">
-        
+        <div class="mb-2 mx-2" *ngFor="let card of data">
+            <div class="row" style="border:1px solid gray;border-radius:5px">
+                <br>
+                    <div class="col-sm-5">    
+                        <br><br>
+                        <div class="d-flex flex-column">
+                            <img src=" {{card.item_image}} " alt="..." style="object-fit: contain;" height="80px">
+                            <br><br>
+                            
+                            <div class="mx-3">
+                            <button class="btn" id="minus" style="width:25%;background-color:#D8D7D4;font-weight:bolder;" > - </button>
+                            <input class="btn" value=" {{card.item_qnty}} " style="width:25%;background-color:#D8D7D4;font-weight: 500;">
+                            <button class="btn" style="width:25%;background-color:#D8D7D4;font-weight:bolder;" > + </button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-sm-7">
+                        <br>
+                        <div class="d-flex flex-column">
+                            <h4>{{ card.item_name }}</h4>
+                            <h6>Brand: {{card.item_brand}}</h6>
+                            <h5 style="color:green">&#8377;{{card.item_price}}</h5>
+                            <h5>Size: {{card.item_size}}</h5>
+                            <button type="button" class="btn-outline-danger" style="border-radius:10px;width:50%" 
+                            (click)="removeItem(card.id)">Remove Item</button>
+                        </div>
+                        <br>  
+                    </div>
+                </div>
+            </div>
+
+
           </div>
           <div class="col-sm-5">
               <div class="sticky-top" id="priceDetails">
@@ -14,8 +46,8 @@
                     <h3>PRICE DETAILS</h3>
                     <hr>
                     <div class=" d-flex justify-content-around">
-                    <h5>Price (items)</h5>
-                    <h5>&#8377;</h5>
+                    <h5>Price ({{num}} items)</h5>
+                    <h5>&#8377;{{price}}</h5>
                     </div>
                     <div class=" d-flex justify-content-around">
                     <h5>Discount</h5>
@@ -29,11 +61,11 @@
                     <hr>
                     <div class="d-flex justify-content-around">
                     <h5>Total Amount</h5>
-                    <h5>&#8377;</h5>
+                    <h5>&#8377;{{price}}</h5>
                     </div>
                 </div>
             <div style="text-align: center;">
-                <button class="btn btn-lg my-2" id="placeOrder" style="background-color:#8F4712;color:white" width="50%">PLACE ORDER</button>
+                <button class="btn btn-lg my-2" id="placeOrder" style="background-color:#8F4712;color:white" width="50%" [disabled]="bool">PLACE ORDER</button>
             </div>
               </div>
           </div>

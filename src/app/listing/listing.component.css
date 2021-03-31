@@ -7,3 +7,9 @@
     background-color: #B4703F;
     color: white;
   }
+
+  .custom{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }

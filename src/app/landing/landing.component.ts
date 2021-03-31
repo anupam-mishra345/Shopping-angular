@@ -11,15 +11,14 @@ export class LandingComponent implements OnInit {
 
   product_id:number;
   data:any;
-
+  dataNew:any;
+  size:any='';
   img:any;
   cmnt:any;
 
-  constructor(private actRoute: ActivatedRoute,private commonsService:CommonService, private router:Router) {
+  constructor(private actRoute: ActivatedRoute,private commonService:CommonService, private router:Router) {
     this.product_id=this.actRoute.snapshot.params.id;
    }
-
-
 
   ngOnInit(): void {
 
@@ -29,13 +28,15 @@ export class LandingComponent implements OnInit {
 
   }
 
-
 display(){
-  this.commonsService.display(this.product_id).subscribe((resp)=>{
+  this.commonService.display(this.product_id).subscribe((resp)=>{
     this.data=resp;
     this.img=this.data.images;
     this.cmnt=this.data.comments;
     console.log(this.data);
+    this.commonService.getCartItems().subscribe(resp=>{
+      this.dataNew=resp;
+    });
   })  
 }
 
@@ -45,8 +46,39 @@ imageChange(path:any){
   console.log(path);
 }
 
+myCart(cart:any){
 
-myCart(data:any){
-  this.router.navigate(['/cart'])
+  if(this.size==''){
+    alert("Please select size")
+  }
+  else{
+  let data1={
+    item_id: cart.id,
+    item_name: cart.name,
+    item_price: cart.price,
+    item_color: cart.color,
+    item_brand: cart.brand,
+    item_image: cart.images[0],
+    item_qnty: 1,
+    item_size:this.size
+    }
+
+
+    let k=0;
+    console.log(this.dataNew);
+    
+    for(let i of this.dataNew){
+          // console.log("inside for loop");
+      if(i.item_id===cart.id && i.item_size===this.size){
+        k+=1;
+      }
+    }
+  
+    if(k===0){
+      this.commonService.cardData(data1);
+    }
+    this.router.navigate(['/cart']);
+    
+}
 }
 }
